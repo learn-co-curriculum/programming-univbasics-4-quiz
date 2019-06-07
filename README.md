@@ -11,16 +11,16 @@
 
 ?: Which syntax can be used to make a new, empty `Array`?
 
-( ) ```Array.new```
-( ) ```new_array```
-( ) ```new_array = []```
+( ) `Array.new`
+( ) `new_array`
+( ) `new_array = []`
 (X) Both A and C
 
 ?: Which syntax can be used to add items to an `Array`?
 
-( ) ```new_array = "New String"``
-( ) ```new_array << "New String"```
-( ) ```new_array.push("New String")```
+( ) `new_array = "New String"`
+( ) `new_array << "New String"`
+( ) `new_array.push("New String")`
 (X) Both B and C
 
 ?: Which method removes (and returns) the last element from an array?
@@ -45,8 +45,8 @@ new_hash = {
   :name => "Mario"
 }
 ```
-( ) ```Hash.new```
-( ) ```new_hash = {}```
+( ) `Hash.new`
+( ) `new_hash = {}`
 (X) All of the above.
 
 ?: What syntax can be used to return the value of the key `pearl`?
@@ -60,10 +60,10 @@ drumset_colors = {
  }
 ```
 
-( ) ```drumset_colors[1]```
-(X) ```drumset_colors[:pearl]```
-( ) ```drumset_colors["pearl"]```
-( ) ```drumset_colors[pearl]```
+( ) `drumset_colors[1]`
+(X) `drumset_colors[:pearl]`
+( ) `drumset_colors["pearl"]`
+( ) `drumset_colors[pearl]`
 
 ?: What syntax can be used to return the value of `size` for `Yamaha`?
 
@@ -71,10 +71,10 @@ drumset_colors = {
 drumsets = { tama: {color: "burgundy", size: 7}, :pearl => {color: "blue", size: 5}, yamaha: {color: "black", size: 5}, ludwig: {color: "white", size: 5}}
 ```
 
-(X) ```drumsets[:yamaha][:size]```
-( ) ```drumsets[yamaha][size]```
-( ) ```drumsets["yamaha"]["size"]```
-( ) ```drumsets[:yamaha]```
+(X) `drumsets[:yamaha][:size]`
+( ) `drumsets[yamaha][size]`
+( ) `drumsets["yamaha"]["size"]`
+( ) `drumsets[:yamaha]`
 
 ?: What will `cars["toyota"]` evaluate to?
 
