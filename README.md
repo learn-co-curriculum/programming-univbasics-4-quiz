@@ -102,7 +102,7 @@ cars = { totoya: ["avalon","camry"], honda: ["civic", "accord"] }
 ?: What will the command `cars[:ford] = "taurus"` do?
 
 ```
-{:totoya=>["avalon", "camry"], :honda=>["civic", "accord"], :ford=>"focus"}
+cars = {:totoya=>["avalon", "camry"], :honda=>["civic", "accord"], :ford=>"focus"}
 ```
 
 (X) Overwrite the value of `cars[:ford]`
